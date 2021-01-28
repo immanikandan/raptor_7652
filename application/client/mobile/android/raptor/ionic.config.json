@@ -1,0 +1,7 @@
+{
+  "name": "raptor",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
