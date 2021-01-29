@@ -21,6 +21,7 @@ import { SharedService } from '../shared/shared.service';
 HomeModule,
 SignupModule,
 LoginModule,
+  UserModule,
   FormsModule,
 TemplateModule,
 FooterModule,
@@ -29,7 +30,7 @@ TranslatorModule,
 AppRoutingModule,
 BrowserAnimationsModule,
   HttpClientModule,
-    AdminModule
+      AdminModule
 ],
   providers: [
   ],
