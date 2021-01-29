@@ -1,13 +1,7 @@
-
-import * as mongoose from 'mongoose';
-
-const Schema = mongoose.Schema;
-
-export const mockSchema = new Schema({
+var mockModel = {
    name: String,
    place: String,
    phone: String
-})
+};
 
-const mockModel = mongoose.model('mock', mockSchema, 'mock');
-export default mockModel;
+module.exports = mockModel;
