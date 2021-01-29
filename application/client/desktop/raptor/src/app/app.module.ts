@@ -25,6 +25,7 @@ LoginModule,
   UserModule,
   UserModule,
   UserModule,
+  UserModule,
   FormsModule,
 TemplateModule,
 FooterModule,
@@ -33,7 +34,7 @@ TranslatorModule,
 AppRoutingModule,
 BrowserAnimationsModule,
   HttpClientModule,
-            AdminModule
+              AdminModule
 ],
   providers: [
   ],

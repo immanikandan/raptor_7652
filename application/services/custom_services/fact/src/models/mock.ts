@@ -1,7 +1,7 @@
 var mockModel = {
    name: String,
    place: String,
-   phone: String,
+   net: String,
    enter_name: String
 };
 
