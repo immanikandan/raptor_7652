@@ -1,9 +1,7 @@
 var mockModel = {
    name: String,
    place: String,
-   phone: String,
-   code: String,
-   road: String
+   phone: String
 };
 
 module.exports = mockModel;

@@ -1,8 +1,8 @@
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserModule } from './user/user.module';
 import { HomeModule } from './home/home.module';
 import { SignupModule } from './signup/signup.module';
 import { LoginModule } from './login/login.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AdminModule } from './admin/admin.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -17,11 +17,11 @@ import { SharedService } from '../shared/shared.service';
   declarations: [
   ],
   imports: [
-  FormsModule,
-UserModule,
+  UserModule,
 HomeModule,
 SignupModule,
 LoginModule,
+  FormsModule,
 TemplateModule,
 FooterModule,
 HeaderModule,
@@ -29,7 +29,7 @@ TranslatorModule,
 AppRoutingModule,
 BrowserAnimationsModule,
   HttpClientModule,
-  AdminModule
+    AdminModule
 ],
   providers: [
   ],
